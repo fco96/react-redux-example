@@ -8,11 +8,9 @@ const App = () => {
     <Router>
       <div>
         <Header />
-        <div className="columns">
-          <div className="column">
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-          </div>
+        <div className="box">
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
         </div>
       </div>
     </Router>
