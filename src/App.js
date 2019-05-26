@@ -8,8 +8,12 @@ const App = () => {
     <Router>
       <div>
         <Header />
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <div className="columns">
+          <div className="column">
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+          </div>
+        </div>
       </div>
     </Router>
   )
