@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "../styles/Home.css"
-import Counter from '../components/Counter';
+import Counter from '../components/Counter'
 
 export default class Home extends Component {
     render() {

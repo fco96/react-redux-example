@@ -7,10 +7,6 @@ class CounterRedux extends Component {
     constructor(props) {
         super(props)
 
-        this.state = {
-
-        }
-
         this.increment = this.increment.bind(this)
         this.decrement = this.decrement.bind(this)
     }

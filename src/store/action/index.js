@@ -1,7 +1,9 @@
 import * as CounterActions from './counter'
+//import * as NewActions from './new'
 
 const ActionCreators = {
-    ...CounterActions
+    ...CounterActions,
+    //...NewActions
 }
 
 export default ActionCreators

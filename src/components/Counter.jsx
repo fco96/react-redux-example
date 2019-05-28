@@ -26,7 +26,6 @@ export default class Counter extends Component {
     render() {
 
         const { current_number } = this.state
-
         return (
             <div>
                 Contador vale: {current_number}
